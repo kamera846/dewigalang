@@ -1,732 +1,903 @@
 @extends('layouts.main')
 
-
 @section('page-content')
-    <!-- Bnner Section -->
-    <section class="banner-section">
-        <div class="swiper-container banner-slider">
-            <div class="swiper-wrapper">
-                <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-1.jpg)">
-                    <div class="content-outer">
-                        <div class="content-box justify-content-center">
-                            <div class="inner text-center">
-                                <h1>
-                                    Explore The Countryside <br />
-                                    With Pursuit Of Happiness
-                                </h1>
-                                <div class="text">
-                                    Eabore ipsum dolor sit amet consectetur ipsum adipisicing tempor <br />
-                                    incididunt nostrud sed axercitation sed ullamcoy laboris
-                                </div>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span>Read More</span></a>
-                                    <a href="#" class="theme-btn btn-style-one style-two"><span>Virtual tour</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-2.jpg)">
-                    <div class="content-outer">
-                        <div class="content-box">
-                            <div class="inner">
-                                <h1>
-                                    Best Social Care <br />
-                                    & City Center Area.
-                                </h1>
-                                <div class="text">
-                                    Eabore ipsum dolor sit amet consectetur ipsum adipisicing tempor <br />
-                                    incididunt nostrud sed axercitation sed ullamcoy laboris
-                                </div>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span>Read More</span></a>
-                                    <a href="#" class="theme-btn btn-style-one style-two"><span>Virtual Tour</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide Item -->
-                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/image-3.jpg)">
-                    <div class="content-outer">
-                        <div class="content-box">
-                            <div class="inner">
-                                <h1>
-                                    Hotels, Restaurants, <br />
-                                    Attractions & More Places.
-                                </h1>
-                                <div class="text">
-                                    Eabore ipsum dolor sit amet consectetur ipsum adipisicing tempor <br />
-                                    incididunt nostrud sed axercitation sed ullamcoy laboris
-                                </div>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one"><span>Read More</span></a>
-                                    <a href="#" class="theme-btn btn-style-one style-two"><span>Virtual Tour</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="banner-slider-nav">
-            <div class="banner-slider-control banner-slider-button-prev">
-                <span><i class="icon-arrow"></i></span>
-            </div>
-            <div class="banner-slider-control banner-slider-button-next">
-                <span><i class="icon-arrow"></i></span>
-            </div>
-        </div>
-    </section>
-    <!-- End Bnner Section -->
 
-    <!-- About section -->
-    <section class="about-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">City With Equity - Efficiency - Opportunity</div>
-                <h2>
-                    Infrastructures, Wide Spaces <br />
-                    & Flawless Attractions
-                </h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="content-block wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <h3>Voice Of The People: <strong> Governlia</strong></h3>
-                        <div class="text">
-                            Veniam quis nostrud exercitation llamco laboris nis aliquip conseqa rure dolorn repreh derit luptate velit excepteur ocaecats aliquip ex duis aute irure dolor in reprehenderit voluptate velitey cillum
-                            dolore ipsum dolor consectetur.
-                        </div>
-                        <ul class="list">
-                            <li>Improving all types of opportunities</li>
-                            <li>Quick solutions for daily problems</li>
-                            <li>Best time and place to start business</li>
-                            <li>Community that grows larger</li>
-                        </ul>
-                        <div class="bottom-content">
-                            <div class="text">
-                                For Any Help, Questions <br />
-                                or Suggestions, Contact Us
-                            </div>
-                            <ul class="contact-link">
-                                <li>
-                                    <a href="tel:+1(345)20678"><i class="icon-phone"></i></a>
-                                </li>
-                                <li>
-                                    <a href="mailto:munciple@example.net"><i class="icon-envelope"></i></a>
-                                </li>
-                                <li>
-                                    <a href="contact.php"><i class="icon-placeholder"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="image-block wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="row">
-                            <div class="col-lg-6 column">
-                                <div class="image"><img src="assets/images/resource/image-1.jpg" alt="" /></div>
-                                <div class="image"><img src="assets/images/resource/image-2.jpg" alt="" /></div>
-                            </div>
-                            <div class="col-lg-6 column">
-                                <div class="image"><img src="assets/images/resource/image-3.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Funfacts Section -->
-    <section class="funfacts-section" style="background-image: url(assets/images/background/bg-1.jpg)">
-        <div class="auto-container">
-            <div class="row">
-                <!--Column-->
-                <div class="column counter-column col-lg-4 col-md-6">
-                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="icon-outer">
-                            <div class="icon"><span class="icon-area"></span></div>
-                        </div>
-                        <div class="content">
-                            <div class="text">Area Covered</div>
-                            <div class="count-outer count-box"><span class="count-text" data-speed="3000" data-stop="790.3">0</span><span>km²</span></div>
-                        </div>
-                    </div>
-                </div>
-                <!--Column-->
-                <div class="column counter-column col-lg-4 col-md-6">
-                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="icon-outer">
-                            <div class="icon"><span class="icon-people"></span></div>
-                        </div>
-                        <div class="content">
-                            <div class="text">Peoples Lived</div>
-                            <div class="count-outer count-box"><span class="count-text" data-speed="3000" data-stop="5.39">0</span><span>million</span></div>
-                        </div>
-                    </div>
-                </div>
-                <!--Column-->
-                <div class="column counter-column col-lg-4 col-md-6">
-                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="icon-outer">
-                            <div class="icon"><span class="icon-language"></span></div>
-                        </div>
-                        <div class="content">
-                            <div class="text">Languages Spoken</div>
-                            <div class="count-outer count-box"><span>Over</span><span class="count-text" data-speed="3000" data-stop="460">0</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- City Program section-->
-    <section class="city-program-section" style="background-image: url(assets/images/background/bg-2.jpg)">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">City With Equity - Efficiency - Opportunity</div>
-                <h2>City Programs & Initiatives</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 program-block">
-                    <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="shape">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <defs>
-                                    <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="413px" height="325px">
-                                        <feOffset in="SourceAlpha" dx="0" dy="10" />
-                                        <feGaussianBlur result="blurOut" stdDeviation="5" />
-                                        <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
-                                        <feComposite operator="atop" in="floodOut" in2="blurOut" />
-                                        <feComponentTransfer><feFuncA type="linear" slope="0.06" /></feComponentTransfer>
-                                        <feMerge>
-                                            <feMergeNode />
-                                            <feMergeNode in="SourceGraphic" />
-                                        </feMerge>
-                                    </filter>
-                                </defs>
-                                <g filter="url(#Filter_0)">
-                                    <path
-                                        fill-rule="evenodd"
-                                        fill="rgb(255, 255, 255)"
-                                        d="M386.000,287.999 L26.000,287.999 L26.000,96.000 L26.000,61.000 L26.000,16.000 L177.000,16.000 L177.000,61.000 L386.000,61.000 L386.000,287.999 Z"
-                                    />
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="icon"><span class="icon-home"></span></div>
-                        <div class="category"><a href="#">Real Estate</a></div>
-                        <h4>
-                            Assistance For <br />
-                            Properties Area
-                        </h4>
-                        <div class="link-btn">
-                            <a href="#"><i class="icon-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 program-block">
-                    <div class="inner-box wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="shape">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <defs>
-                                    <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="413px" height="325px">
-                                        <feOffset in="SourceAlpha" dx="0" dy="10" />
-                                        <feGaussianBlur result="blurOut" stdDeviation="5" />
-                                        <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
-                                        <feComposite operator="atop" in="floodOut" in2="blurOut" />
-                                        <feComponentTransfer><feFuncA type="linear" slope="0.06" /></feComponentTransfer>
-                                        <feMerge>
-                                            <feMergeNode />
-                                            <feMergeNode in="SourceGraphic" />
-                                        </feMerge>
-                                    </filter>
-                                </defs>
-                                <g filter="url(#Filter_0)">
-                                    <path
-                                        fill-rule="evenodd"
-                                        fill="rgb(255, 255, 255)"
-                                        d="M386.000,287.999 L26.000,287.999 L26.000,96.000 L26.000,61.000 L26.000,16.000 L177.000,16.000 L177.000,61.000 L386.000,61.000 L386.000,287.999 Z"
-                                    />
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="icon"><span class="icon-flower"></span></div>
-                        <div class="category"><a href="#">City Culture</a></div>
-                        <h4>Recreation Programs <br />For All Citizens</h4>
-                        <div class="link-btn">
-                            <a href="#"><i class="icon-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 program-block">
-                    <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="shape">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <defs>
-                                    <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="413px" height="325px">
-                                        <feOffset in="SourceAlpha" dx="0" dy="10" />
-                                        <feGaussianBlur result="blurOut" stdDeviation="5" />
-                                        <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
-                                        <feComposite operator="atop" in="floodOut" in2="blurOut" />
-                                        <feComponentTransfer><feFuncA type="linear" slope="0.06" /></feComponentTransfer>
-                                        <feMerge>
-                                            <feMergeNode />
-                                            <feMergeNode in="SourceGraphic" />
-                                        </feMerge>
-                                    </filter>
-                                </defs>
-                                <g filter="url(#Filter_0)">
-                                    <path
-                                        fill-rule="evenodd"
-                                        fill="rgb(255, 255, 255)"
-                                        d="M386.000,287.999 L26.000,287.999 L26.000,96.000 L26.000,61.000 L26.000,16.000 L177.000,16.000 L177.000,61.000 L386.000,61.000 L386.000,287.999 Z"
-                                    />
-                                </g>
-                            </svg>
-                        </div>
-                        <div class="icon"><span class="icon-health"></span></div>
-                        <div class="category"><a href="#">Physical Health</a></div>
-                        <h4>
-                            A Long-Term Vision Of <br />
-                            Healthy & Active
-                        </h4>
-                        <div class="link-btn">
-                            <a href="#"><i class="icon-arrow"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Mayor Message section -->
-    <section class="mayor-message-section">
-        <div class="auto-container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="image"><img src="assets/images/resource/image-4.jpg" alt="" /></div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="content-block pl-lg-5">
-                        <div class="sec-title">
-                            <div class="sub-title">City With Equity - Efficiency - Opportunity</div>
-                            <h2>Message From City Mayor</h2>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <h3><span>Meet</span> Tim Brexton</h3>
-                                <h4>Elected since August 25, 2017</h4>
-                                <div class="text">
-                                    <p>
-                                        Hiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur.
-                                    </p>
-                                    <p>Excepteur sint occaecat cupidatat non proident suntin culpa qui officia deserunt mollit anim idm est laborum. Sed perspiciatis und omnis iste natus error sit voluptatem accusantium.</p>
-                                </div>
-                                <div class="sign"><img src="assets/images/resource/sign.png" alt="" /></div>
-                                <div class="designation">The City Mayor</div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="funfacts">
-                                    <div class="column counter-column">
-                                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <div class="content">
-                                                <div class="text">Years Of <br />Experience</div>
-                                                <div class="count-outer count-box">
-                                                    <span class="count-text" data-speed="3000" data-stop="25">0</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="column counter-column">
-                                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <div class="content">
-                                                <div class="text">
-                                                    programs <br />
-                                                    for the city
-                                                </div>
-                                                <div class="count-outer count-box">
-                                                    <span class="count-text" data-speed="3000" data-stop="80">0</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="column counter-column">
-                                        <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <div class="content">
-                                                <div class="text">
-                                                    Approved <br />
-                                                    covid-19 centers
-                                                </div>
-                                                <div class="count-outer count-box">
-                                                    <span class="count-text" data-speed="3000" data-stop="63">0</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects section -->
-    <section class="projects-section">
-        <div class="auto-container">
-            <div class="row no-gutters">
-                <div class="col-xl-3 col-lg-6 project-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/image-5.jpg" alt="" /></div>
-                        <div class="content">
-                            <h4>Explore Governlia</h4>
-                            <h3>Our City Guides</h3>
-                            <div class="link-btn">
-                                <a href="#"><i class="icon-arrow"></i></a>
-                            </div>
-                        </div>
-                        <div class="overlay">
-                            <div class="content-two">
-                                <h4>Explore Governlia</h4>
-                                <h3>Our City Guides</h3>
-                                <div class="text">
-                                    Veniam quis nostrud exercitation sed llamco <br />
-                                    conseqa rure dolorn repreh derit ...
-                                </div>
-                                <div class="link-btn">
-                                    <a href="#"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 project-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/image-6.jpg" alt="" /></div>
-                        <div class="content">
-                            <h4>Explore Governlia</h4>
-                            <h3>Main Tourist Spots</h3>
-                            <div class="link-btn">
-                                <a href="#"><i class="icon-arrow"></i></a>
-                            </div>
-                        </div>
-                        <div class="overlay">
-                            <div class="content-two">
-                                <h4>Explore Governlia</h4>
-                                <h3>Main Tourist Spots</h3>
-                                <div class="text">
-                                    Veniam quis nostrud exercitation sed llamco <br />
-                                    conseqa rure dolorn repreh derit ...
-                                </div>
-                                <div class="link-btn">
-                                    <a href="#"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 project-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/image-7.jpg" alt="" /></div>
-                        <div class="content">
-                            <h4>Explore Governlia</h4>
-                            <h3>Experience Now</h3>
-                            <div class="link-btn">
-                                <a href="#"><i class="icon-arrow"></i></a>
-                            </div>
-                        </div>
-                        <div class="overlay">
-                            <div class="content-two">
-                                <h4>Explore Governlia</h4>
-                                <h3>Experience Now</h3>
-                                <div class="text">
-                                    Veniam quis nostrud exercitation sed llamco <br />
-                                    conseqa rure dolorn repreh derit ...
-                                </div>
-                                <div class="link-btn">
-                                    <a href="#"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 project-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="assets/images/resource/image-8.jpg" alt="" /></div>
-                        <div class="content">
-                            <h4>Explore Governlia</h4>
-                            <h3>Culture & History</h3>
-                            <div class="link-btn">
-                                <a href="#"><i class="icon-arrow"></i></a>
-                            </div>
-                        </div>
-                        <div class="overlay">
-                            <div class="content-two">
-                                <h4>Explore Governlia</h4>
-                                <h3>Culture & History</h3>
-                                <div class="text">
-                                    Veniam quis nostrud exercitation sed llamco <br />
-                                    conseqa rure dolorn repreh derit ...
-                                </div>
-                                <div class="link-btn">
-                                    <a href="#"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Highlights section -->
-    <section class="highlights-section">
-        <div class="auto-container">
-            <div class="sec-title">
-                <div class="sub-title">City With Equity - Efficiency - Opportunity</div>
-                <h2>City Municipality Services <br />And Departments</h2>
-            </div>
-            <div class="highlight-block-area">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="text-blcok">
-                            <h4>Luxe Street With Buildings</h4>
-                            <div class="text">
-                                Hiusmod tempor incididunt ut labore et dolore magna aliqua. Ut minim veniay <br />
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ela reprehenderit in <br />
-                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            </div>
-                            <div class="link-btn">
-                                <a href="/gallery" class="theme-btn btn-style-one"><span>View Details</span></a>
-                            </div>
-                        </div>
-                        <div class="swiper-container highlight-thumbs">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="thumb"><img src="assets/images/resource/image-9.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="thumb"><img src="assets/images/resource/image-10.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="thumb"><img src="assets/images/resource/image-11.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="thumb"><img src="assets/images/resource/image-9.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="thumb"><img src="assets/images/resource/image-10.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="thumb"><img src="assets/images/resource/image-11.jpg" alt="" /></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="highlight-slider-nav">
-                            <div class="highlight-slider-control highlight-slider-button-prev">
-                                <span><i class="icon-arrow"></i></span>
-                            </div>
-                            <div class="highlight-slider-control highlight-slider-button-next">
-                                <span><i class="icon-arrow"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <!-- Swiper -->
-                        <div class="swiper-container highlight-image">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="image"><img src="assets/images/resource/image-12.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image"><img src="assets/images/resource/image-12.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image"><img src="assets/images/resource/image-12.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image"><img src="assets/images/resource/image-12.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image"><img src="assets/images/resource/image-12.jpg" alt="" /></div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image"><img src="assets/images/resource/image-12.jpg" alt="" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Video section -->
-    <section class="video-section" style="background-image: url(assets/images/background/bg-3.jpg)">
-        <div class="auto-container">
-            <h2>
-                <strong>Experience The Great</strong> <br />
-                Countryside And Enjoy Hiking
-            </h2>
-            <div class="text">Eabore ipsum dolor sit amet consectetur adipisicing tempor</div>
-            <div class="video-btn">
-                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link play-now ripple" data-fancybox="gallery" data-caption=""><span class="fas fa-play"></span> </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Info section -->
-    <section class="contact-info-section">
-        <div class="auto-container">
-            <div class="wrapper-box" style="background-image: url(assets/images/background/bg-4.jpg)">
-                <div class="top-content">
-                    <h2>Untuk Saran dan Pertanyaan</h2>
-                    <div class="text">
-                        Tempor incididunt ut labore et dolore magna aliqua. Ut minim veniay quis nostrud <br />
-                        exercitation ullamco laboris nisi ut aliquip ex ela reprehenderit
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-6 contact-info-block">
-                        <div class="inner-box">
-                            <div class="icon"><span class="pe-7s-call"></span></div>
-                            <h5>Call us</h5>
-                            <h4><a href="tel:8526105599">852-610-5599</a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 contact-info-block">
-                        <div class="inner-box">
-                            <div class="icon"><span class="pe-7s-mail-open"></span></div>
-                            <h5>Send Email</h5>
-                            <h4><a href="mailto:mail@govern.net">mail@govern.net</a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 contact-info-block">
-                        <div class="inner-box">
-                            <div class="icon"><span class="pe-7s-stopwatch"></span></div>
-                            <h5>Office Hours</h5>
-                            <h4>0900am - 0600pm</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- News Section -->
-    <section class="news-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">City With Equity - Efficiency - Opportunity</div>
-                <h2>Blog Terbaru</h2>
-            </div>
-            <div class="row">
-                <div class="theme_carousel owl-theme owl-carousel">
-                    <div class="col-xl-12 news-block">
-                        <div class="inner-box">
-                            <div class="image">
-                                <img src="assets/images/resource/news-2.jpg" alt="" />
-                                <div class="overlay">
-                                    <div class="link-btn">
-                                        <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <!-- <div class="category"><a href="#">Health & Fitness</a></div> -->
-                                <h4>
-                                    <a href="blog-details.php"
-                                        >Long-Term Vision Of Health <br />
-                                        & Attractive Facility</a
-                                    >
-                                </h4>
-                                <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                                <ul class="post-meta">
-                                    <li><i class="far fa-user"></i>Admin</li>
-                                    <li><i class="far fa-calendar"></i>Sep 3, 2020</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12 news-block">
-                        <div class="inner-box">
-                            <div class="image">
-                                <img src="assets/images/resource/news-3.jpg" alt="" />
-                                <div class="overlay">
-                                    <div class="link-btn">
-                                        <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <!-- <div class="category"><a href="#">Tourists Guide</a></div> -->
-                                <h4>
-                                    <a href="blog-details.php"
-                                        >Recreation Programs From <br />
-                                        Watery Landscapes</a
-                                    >
-                                </h4>
-                                <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                                <ul class="post-meta">
-                                    <li><i class="far fa-user"></i>Admin</li>
-                                    <li><i class="far fa-calendar"></i>Sep 3, 2020</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12 news-block">
-                        <div class="inner-box">
-                            <div class="image">
-                                <img src="assets/images/resource/news-4.jpg" alt="" />
-                                <div class="overlay">
-                                    <div class="link-btn">
-                                        <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lower-content">
-                                <!-- <div class="category"><a href="#">Public Awareness</a></div> -->
-                                <h4>
-                                    <a href="blog-details.php"
-                                        >Self-Guided Driving & Tours <br />
-                                        Walk Of Greater City</a
-                                    >
-                                </h4>
-                                <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                                <ul class="post-meta">
-                                    <li><i class="far fa-user"></i>Admin</li>
-                                    <li><i class="far fa-calendar"></i>Sep 3, 2020</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Brand Logo section -->
-    <section class="brand-logo-section">
-        <div class="auto-container">
+<section class="wrapper bg-soft-green angled lower-start">
+    <div class="container pt-7 pt-md-11 pb-8">
+        <div class="row gx-0 gy-10 align-items-center">
             <div
-                class="theme_carousel owl-theme owl-carousel"
-                data-options='{"loop": true, "center": false, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "4" } , "992":{ "items" : "5" }, "1200":{ "items" : "5" }}}'
+                class="col-lg-6"
+                data-cues="slideInDown"
+                data-group="page-title"
+                data-delay="600"
             >
-                <div class="single-logo"><img src="assets/images/resource/client-logo-1.png" alt="" /></div>
-                <div class="single-logo"><img src="assets/images/resource/client-logo-2.png" alt="" /></div>
-                <div class="single-logo"><img src="assets/images/resource/client-logo-3.png" alt="" /></div>
-                <div class="single-logo"><img src="assets/images/resource/client-logo-4.png" alt="" /></div>
-                <div class="single-logo"><img src="assets/images/resource/client-logo-5.png" alt="" /></div>
+                <h1 class="mb-4">
+                    Sandbox focuses on <br /><span
+                        class="typer text-primary text-nowrap"
+                        data-delay="100"
+                        data-words="customer satisfaction,business needs,creative ideas"
+                    ></span
+                    ><span
+                        class="cursor text-primary"
+                        data-owner="typer"
+                    ></span>
+                </h1>
+                <p class="lead fs-24 lh-sm mb-7 pe-md-18 pe-lg-0 pe-xxl-15">
+                    We carefully consider our solutions to support each and
+                    every stage of your growth.
+                </p>
+                <div>
+                    <a class="btn btn-lg btn-primary rounded">Get Started</a>
+                </div>
+            </div>
+            <!-- /column -->
+            <div class="col-lg-5 offset-lg-1 mb-n18" data-cues="slideInDown">
+                <div class="position-relative">
+                    <!-- <a
+                        href="./assets/media/movie.mp4"
+                        class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute"
+                        style="
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            z-index: 3;
+                        "
+                        data-glightbox
+                        ><i class="icn-caret-right"></i
+                    ></a> -->
+                    <figure class="rounded shadow-lg">
+                        <img
+                            src="./assets/img/photos/about13.jpg"
+                            srcset="./assets/img/photos/about13@2x.jpg 2x"
+                            alt=""
+                        />
+                    </figure>
+                </div>
+                <!-- /div -->
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+<section class="wrapper mt-20">
+    <div class="contianer pt-15 pt-md-17 pb-2 pb-md-2">
+        <div class="row">
+            <div
+                class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center"
+            >
+                <h2 class="fs-15 text-uppercase text-muted mb-3">
+                    What We Do?
+                </h2>
+                <h3 class="mb-10">
+                    The service we offer is specifically designed to meet your
+                    needs.
+                </h3>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row gx-md-8 gy-8 text-center mb-14 mb-md-17">
+            <div class="col-md-6 col-xl-3">
+                <div class="icon btn btn-circle btn-lg btn-green disabled mb-5">
+                    <i class="uil uil-phone-volume"></i>
+                </div>
+                <h4>24/7 Support</h4>
+                <p class="mb-3">
+                    Etiam porta sem malesuada magna mollis euismod. Donec
+                    ullamcorper nulla non metus auctor fringilla.
+                </p>
+                <a href="#" class="more hover">Learn More</a>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-xl-3">
+                <div class="icon btn btn-circle btn-lg btn-green disabled mb-5">
+                    <i class="uil uil-shield-exclamation"></i>
+                </div>
+                <h4>Secure Payments</h4>
+                <p class="mb-3">
+                    Etiam porta sem malesuada magna mollis euismod. Donec
+                    ullamcorper nulla non metus auctor fringilla.
+                </p>
+                <a href="#" class="more hover">Learn More</a>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-xl-3">
+                <div class="icon btn btn-circle btn-lg btn-green disabled mb-5">
+                    <i class="uil uil-laptop-cloud"></i>
+                </div>
+                <h4>Daily Updates</h4>
+                <p class="mb-3">
+                    Etiam porta sem malesuada magna mollis euismod. Donec
+                    ullamcorper nulla non metus auctor fringilla.
+                </p>
+                <a href="#" class="more hover">Learn More</a>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-xl-3">
+                <div class="icon btn btn-circle btn-lg btn-green disabled mb-5">
+                    <i class="uil uil-chart-line"></i>
+                </div>
+                <h4>Market Research</h4>
+                <p class="mb-3">
+                    Etiam porta sem malesuada magna mollis euismod. Donec
+                    ullamcorper nulla non metus auctor fringilla.
+                </p>
+                <a href="#" class="more hover">Learn More</a>
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+    </div>
+</section>
+<section class="wrapper bg-light mt-3 angled upper-end lower-end">
+    <div class="container">
+        <div
+            class="row pt-8 pt-md-14 pb-20 gx-lg-8 gx-xl-12 gy-10 align-items-center"
+        >
+            <div
+                class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative"
+            >
+                <div
+                    class="shape bg-soft-primary rounded-circle rellax w-20 h-20"
+                    data-rellax-speed="1"
+                    style="top: -2rem; right: -1.9rem"
+                ></div>
+                <figure class="rounded">
+                    <img
+                        src="./assets/img/photos/about7.jpg"
+                        srcset="./assets/img/photos/about7@2x.jpg 2x"
+                        alt=""
+                    />
+                </figure>
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+                <h2 class="mb-3">Who Are We?</h2>
+                <p class="lead fs-lg">
+                    We are a digital and branding company that believes in the
+                    power of creative strategy and along with great design.
+                </p>
+                <p class="mb-6">
+                    Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Cras justo odio, dapibus ac
+                    facilisis in, egestas eget quam. Praesent commodo cursus
+                    magna, vel scelerisque nisl consectetur et.
+                </p>
+                <div class="row gx-xl-10 gy-6">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img
+                                    src="./assets/img/icons/lineal/target.svg"
+                                    class="svg-inject icon-svg icon-svg-sm me-4"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Our Mission</h4>
+                                <p class="mb-0">
+                                    Dapibus eu leo quam ornare curabitur blandit
+                                    tempus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img
+                                    src="./assets/img/icons/lineal/award-2.svg"
+                                    class="svg-inject icon-svg icon-svg-sm me-4"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <h4 class="mb-1">Our Values</h4>
+                                <p class="mb-0">
+                                    Aenean lacinia bibendum nulla sed
+                                    consectetur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row">
+            <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+                <h2 class="fs-15 text-uppercase text-muted mb-3">
+                    Latest Galleries
+                </h2>
+                <h3 class="mb-10">
+                    Check out some of our awesome projects with creative ideas
+                    and great design.
+                </h3>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <div class="container-fluid px-md-6 py-4 py-md-8 mb-8">
+        <div
+            class="swiper-container grid-view mb-6 swiper-container-0"
+            data-margin="30"
+            data-dots="true"
+            data-items-xl="3"
+            data-items-md="2"
+            data-items-xs="1"
+        >
+            <div
+                class="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
+            >
+                <div
+                    class="swiper-wrapper"
+                    id="swiper-wrapper-38ece5f5e2c97e5d"
+                    aria-live="off"
+                    style="
+                        cursor: grab;
+                        transform: translate3d(0px, 0px, 0px);
+                        transition-duration: 0ms;
+                    "
+                >
+                    <div
+                        class="swiper-slide swiper-slide-active"
+                        role="group"
+                        aria-label="1 / 6"
+                        style="width: 450px; margin-right: 30px"
+                    >
+                        <figure class="rounded mb-6">
+                            <img
+                                src="../../assets/img/photos/pd7.jpg"
+                                srcset="../../assets/img/photos/pd7@2x.jpg 2x"
+                                alt=""
+                            /><a
+                                class="item-link"
+                                href="../../assets/img/photos/pd7-full.jpg"
+                                data-glightbox=""
+                                data-gallery="projects-group"
+                                ><i class="uil uil-focus-add"></i
+                            ></a>
+                        </figure>
+                        <div
+                            class="project-details d-flex justify-content-center flex-column"
+                        >
+                            <div class="post-header">
+                                <h2 class="post-title h3">
+                                    <a
+                                        href="../../single-project.html"
+                                        class="link-dark"
+                                        >Cras Fermentum Sem</a
+                                    >
+                                </h2>
+                                <div class="post-category text-ash">
+                                    Stationary
+                                </div>
+                            </div>
+                            <!-- /.post-header -->
+                        </div>
+                        <!-- /.project-details -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div
+                        class="swiper-slide swiper-slide-next"
+                        role="group"
+                        aria-label="2 / 6"
+                        style="width: 450px; margin-right: 30px"
+                    >
+                        <figure class="rounded mb-6">
+                            <img
+                                src="../../assets/img/photos/pd8.jpg"
+                                srcset="../../assets/img/photos/pd8@2x.jpg 2x"
+                                alt=""
+                            /><a
+                                class="item-link"
+                                href="../../assets/img/photos/pd8-full.jpg"
+                                data-glightbox=""
+                                data-gallery="projects-group"
+                                ><i class="uil uil-focus-add"></i
+                            ></a>
+                        </figure>
+                        <div
+                            class="project-details d-flex justify-content-center flex-column"
+                        >
+                            <div class="post-header">
+                                <h2 class="post-title h3">
+                                    <a
+                                        href="../../single-project2.html"
+                                        class="link-dark"
+                                        >Mollis Ipsum Mattis</a
+                                    >
+                                </h2>
+                                <div class="post-category text-ash">
+                                    Magazine, Book
+                                </div>
+                            </div>
+                            <!-- /.post-header -->
+                        </div>
+                        <!-- /.project-details -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div
+                        class="swiper-slide"
+                        style="width: 450px; margin-right: 30px"
+                        role="group"
+                        aria-label="3 / 6"
+                    >
+                        <figure class="rounded mb-6">
+                            <img
+                                src="../../assets/img/photos/pd9.jpg"
+                                srcset="../../assets/img/photos/pd9@2x.jpg 2x"
+                                alt=""
+                            /><a
+                                class="item-link"
+                                href="../../assets/img/photos/pd9-full.jpg"
+                                data-glightbox=""
+                                data-gallery="projects-group"
+                                ><i class="uil uil-focus-add"></i
+                            ></a>
+                        </figure>
+                        <div
+                            class="project-details d-flex justify-content-center flex-column"
+                        >
+                            <div class="post-header">
+                                <h2 class="post-title h3">
+                                    <a
+                                        href="../../single-project3.html"
+                                        class="link-dark"
+                                        >Ipsum Ultricies Cursus</a
+                                    >
+                                </h2>
+                                <div class="post-category text-ash">
+                                    Packaging
+                                </div>
+                            </div>
+                            <!-- /.post-header -->
+                        </div>
+                        <!-- /.project-details -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div
+                        class="swiper-slide"
+                        role="group"
+                        aria-label="4 / 6"
+                        style="width: 450px; margin-right: 30px"
+                    >
+                        <figure class="rounded mb-6">
+                            <img
+                                src="../../assets/img/photos/pd10.jpg"
+                                srcset="../../assets/img/photos/pd10@2x.jpg 2x"
+                                alt=""
+                            /><a
+                                class="item-link"
+                                href="../../assets/img/photos/pd10-full.jpg"
+                                data-glightbox=""
+                                data-gallery="projects-group"
+                                ><i class="uil uil-focus-add"></i
+                            ></a>
+                        </figure>
+                        <div
+                            class="project-details d-flex justify-content-center flex-column"
+                        >
+                            <div class="post-header">
+                                <h2 class="post-title h3">
+                                    <a
+                                        href="../../single-project.html"
+                                        class="link-dark"
+                                        >Inceptos Euismod Egestas</a
+                                    >
+                                </h2>
+                                <div class="post-category text-ash">
+                                    Stationary, Branding
+                                </div>
+                            </div>
+                            <!-- /.post-header -->
+                        </div>
+                        <!-- /.project-details -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div
+                        class="swiper-slide"
+                        role="group"
+                        aria-label="5 / 6"
+                        style="width: 450px; margin-right: 30px"
+                    >
+                        <figure class="rounded mb-6">
+                            <img
+                                src="../../assets/img/photos/pd11.jpg"
+                                srcset="../../assets/img/photos/pd11@2x.jpg 2x"
+                                alt=""
+                            /><a
+                                class="item-link"
+                                href="../../assets/img/photos/pd11-full.jpg"
+                                data-glightbox=""
+                                data-gallery="projects-group"
+                                ><i class="uil uil-focus-add"></i
+                            ></a>
+                        </figure>
+                        <div
+                            class="project-details d-flex justify-content-center flex-column"
+                        >
+                            <div class="post-header">
+                                <h2 class="post-title h3">
+                                    <a
+                                        href="../../single-project2.html"
+                                        class="link-dark"
+                                        >Ipsum Mollis Vulputate</a
+                                    >
+                                </h2>
+                                <div class="post-category text-ash">
+                                    Packaging
+                                </div>
+                            </div>
+                            <!-- /.post-header -->
+                        </div>
+                        <!-- /.project-details -->
+                    </div>
+                    <!--/.swiper-slide -->
+                    <div
+                        class="swiper-slide"
+                        role="group"
+                        aria-label="6 / 6"
+                        style="width: 450px; margin-right: 30px"
+                    >
+                        <figure class="rounded mb-6">
+                            <img
+                                src="../../assets/img/photos/pd12.jpg"
+                                srcset="../../assets/img/photos/pd12@2x.jpg 2x"
+                                alt=""
+                            /><a
+                                class="item-link"
+                                href="../../assets/img/photos/pd12-full.jpg"
+                                data-glightbox=""
+                                data-gallery="projects-group"
+                                ><i class="uil uil-focus-add"></i
+                            ></a>
+                        </figure>
+                        <div
+                            class="project-details d-flex justify-content-center flex-column"
+                        >
+                            <div class="post-header">
+                                <h2 class="post-title h3">
+                                    <a
+                                        href="../../single-project3.html"
+                                        class="link-dark"
+                                        >Porta Ornare Cras</a
+                                    >
+                                </h2>
+                                <div class="post-category text-ash">
+                                    Branding
+                                </div>
+                            </div>
+                            <!-- /.post-header -->
+                        </div>
+                        <!-- /.project-details -->
+                    </div>
+                    <!--/.swiper-slide -->
+                </div>
+                <!--/.swiper-wrapper -->
+                <span
+                    class="swiper-notification"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                ></span
+                ><span
+                    class="swiper-notification"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                ></span>
+            </div>
+            <!-- /.swiper -->
+            <div class="swiper-controls">
+                <div
+                    class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
+                >
+                    <span
+                        class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Go to slide 1"
+                        aria-current="true"
+                    ></span
+                    ><span
+                        class="swiper-pagination-bullet"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Go to slide 2"
+                    ></span
+                    ><span
+                        class="swiper-pagination-bullet"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Go to slide 3"
+                    ></span
+                    ><span
+                        class="swiper-pagination-bullet"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Go to slide 4"
+                    ></span
+                    ><span
+                        class="swiper-pagination-bullet"
+                        tabindex="0"
+                        role="button"
+                        aria-label="Go to slide 5"
+                    ></span>
+                </div>
+            </div>
+            <div class="swiper-controls">
+                <div class="swiper-pagination"></div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- /.container-fluid -->
+    <div class="container pt-10 pt-md-12 pb-13 pb-md-15">
+        <div class="row mb-5">
+            <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+                <h2 class="fs-15 text-uppercase text-muted mb-3">
+                    Latest Blog Post
+                </h2>
+                <h3 class="mb-10">
+                    Check out some of our awesome projects with creative ideas
+                    and great design.
+                </h3>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="blog grid grid-view">
+                    <div class="row isotope gx-md-8 gy-8 mb-8">
+                        <article class="item post col-lg-4 col-md-6">
+                            <div class="card">
+                                <figure
+                                    class="card-img-top overlay overlay-1 hover-scale"
+                                >
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/photos/b5.jpg"
+                                            alt=""
+                                    /></a>
+                                    <figcaption>
+                                        <h5 class="from-top mb-0">Read More</h5>
+                                    </figcaption>
+                                </figure>
+                                <div class="card-body">
+                                    <div class="post-header">
+                                        <div class="post-category text-line">
+                                            <a
+                                                href="#"
+                                                class="hover"
+                                                rel="category"
+                                                >Workspace</a
+                                            >
+                                        </div>
+                                        <!-- /.post-category -->
+                                        <h2 class="post-title h3 mt-1 mb-3">
+                                            <a
+                                                class="link-dark"
+                                                href="./blog-post.html"
+                                                >Nullam id dolor elit id nibh</a
+                                            >
+                                        </h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                    <div class="post-content">
+                                        <p>
+                                            Mauris convallis non ligula non
+                                            interdum. Gravida vulputate
+                                            convallis tempus vestibulum cras
+                                            imperdiet nun eu dolor. Aenean
+                                            lacinia bibendum nulla sed.
+                                        </p>
+                                    </div>
+                                    <!-- /.post-content -->
+                                </div>
+                                <!--/.card-body -->
+                                <div class="card-footer">
+                                    <ul class="post-meta d-flex mb-0">
+                                        <li class="post-date">
+                                            <i class="uil uil-calendar-alt"></i
+                                            ><span>29 Mar 2021</span>
+                                        </li>
+                                        <li class="post-comments">
+                                            <a href="#"
+                                                ><i class="uil uil-comment"></i
+                                                >3</a
+                                            >
+                                        </li>
+                                        <li class="post-likes ms-auto">
+                                            <a href="#"
+                                                ><i
+                                                    class="uil uil-heart-alt"
+                                                ></i
+                                                >3</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <!-- /.post-meta -->
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                            <!-- /.card -->
+                        </article>
+                        <!-- /.post -->
+                        <article class="item post col-lg-4 col-md-6">
+                            <div class="card">
+                                <figure
+                                    class="card-img-top overlay overlay-1 hover-scale"
+                                >
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/photos/b6.jpg"
+                                            alt=""
+                                    /></a>
+                                    <figcaption>
+                                        <h5 class="from-top mb-0">Read More</h5>
+                                    </figcaption>
+                                </figure>
+                                <div class="card-body">
+                                    <div class="post-header">
+                                        <div class="post-category text-line">
+                                            <a
+                                                href="#"
+                                                class="hover"
+                                                rel="category"
+                                                >Meeting</a
+                                            >
+                                        </div>
+                                        <!-- /.post-category -->
+                                        <h2 class="post-title h3 mt-1 mb-3">
+                                            <a
+                                                class="link-dark"
+                                                href="./blog-post.html"
+                                                >Ultricies fusce porta elit</a
+                                            >
+                                        </h2>
+                                    </div>
+                                    <!-- /.post-header -->
+                                    <div class="post-content">
+                                        <p>
+                                            Mauris convallis non ligula non
+                                            interdum. Gravida vulputate
+                                            convallis tempus vestibulum cras
+                                            imperdiet nun eu dolor. Aenean
+                                            lacinia bibendum nulla sed.
+                                        </p>
+                                    </div>
+                                    <!-- /.post-content -->
+                                </div>
+                                <!--/.card-body -->
+                                <div class="card-footer">
+                                    <ul class="post-meta d-flex mb-0">
+                                        <li class="post-date">
+                                            <i class="uil uil-calendar-alt"></i
+                                            ><span>26 Feb 2021</span>
+                                        </li>
+                                        <li class="post-comments">
+                                            <a href="#"
+                                                ><i class="uil uil-comment"></i
+                                                >6</a
+                                            >
+                                        </li>
+                                        <li class="post-likes ms-auto">
+                                            <a href="#"
+                                                ><i
+                                                    class="uil uil-heart-alt"
+                                                ></i
+                                                >3</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <!-- /.post-meta -->
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                            <!-- /.card -->
+                        </article>
+                        <!-- /.post -->
+                        <article class="item post col-lg-4 col-md-6">
+                            <div class="card">
+                                <figure
+                                    class="card-img-top overlay overlay-1 hover-scale"
+                                >
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/photos/b7.jpg"
+                                            alt=""
+                                    /></a>
+                                    <figcaption>
+                                        <h5 class="from-top mb-0">Read More</h5>
+                                    </figcaption>
+                                </figure>
+                                <div class="card-body">
+                                    <div class="post-header">
+                                        <div class="post-category text-line">
+                                            <a
+                                                href="#"
+                                                class="hover"
+                                                rel="category"
+                                                >Business Tips</a
+                                            >
+                                        </div>
+                                        <!-- /.post-category -->
+                                        <h2 class="post-title h3 mt-1 mb-3">
+                                            <a
+                                                class="link-dark"
+                                                href="./blog-post.html"
+                                                >Morbi leo risus porta eget</a
+                                            >
+                                        </h2>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>
+                                            Mauris convallis non ligula non
+                                            interdum. Gravida vulputate
+                                            convallis tempus vestibulum cras
+                                            imperdiet nun eu dolor. Aenean
+                                            lacinia bibendum nulla sed.
+                                        </p>
+                                    </div>
+                                    <!-- /.post-content -->
+                                </div>
+                                <!--/.card-body -->
+                                <div class="card-footer">
+                                    <ul class="post-meta d-flex mb-0">
+                                        <li class="post-date">
+                                            <i class="uil uil-calendar-alt"></i
+                                            ><span>7 Jan 2021</span>
+                                        </li>
+                                        <li class="post-comments">
+                                            <a href="#"
+                                                ><i class="uil uil-comment"></i
+                                                >2</a
+                                            >
+                                        </li>
+                                        <li class="post-likes ms-auto">
+                                            <a href="#"
+                                                ><i
+                                                    class="uil uil-heart-alt"
+                                                ></i
+                                                >5</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <!-- /.post-meta -->
+                                </div>
+                                <!-- /.card-footer -->
+                            </div>
+                            <!-- /.card -->
+                        </article>
+                        <!-- /.post -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.blog -->
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <div class="container pt-3 pt-md-5 pb-15 pb-md-18">
+        <div class="row mb-7">
+            <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto text-center">
+                <h2 class="fs-15 text-uppercase text-muted mb-3">Contact Us</h2>
+                <h3 class="mb-10">
+                    Check out some of our awesome projects with creative ideas
+                    and great design.
+                </h3>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-xl-10 mx-auto">
+                <div class="card">
+                    <div class="row gx-0">
+                        <div class="col-lg-6 align-self-stretch">
+                            <div
+                                class="map map-full rounded-top rounded-lg-start"
+                            >
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25387.23478654725!2d-122.06115399490332!3d37.309248660190086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb4571bd377ab%3A0x394d3fe1a3e178b4!2sCupertino%2C%20CA%2C%20USA!5e0!3m2!1sen!2str!4v1645437305701!5m2!1sen!2str"
+                                    style="width: 100%; height: 100%; border: 0"
+                                    allowfullscreen=""
+                                ></iframe>
+                            </div>
+                            <!-- /.map -->
+                        </div>
+                        <!--/column -->
+                        <div class="col-lg-6">
+                            <div class="p-10 p-md-11 p-lg-14">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div
+                                            class="icon text-primary fs-28 me-4 mt-n1"
+                                        >
+                                            <i
+                                                class="uil uil-location-pin-alt"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="align-self-start justify-content-start"
+                                    >
+                                        <h5 class="mb-1">Address</h5>
+                                        <address>
+                                            Moonshine St. 14/05 Light City,
+                                            <br
+                                                class="d-none d-md-block"
+                                            />London, United Kingdom
+                                        </address>
+                                    </div>
+                                </div>
+                                <!--/div -->
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div
+                                            class="icon text-primary fs-28 me-4 mt-n1"
+                                        >
+                                            <i class="uil uil-phone-volume"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Phone</h5>
+                                        <p>
+                                            00 (123) 456 78 90 <br />00 (987)
+                                            654 32 10
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--/div -->
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div
+                                            class="icon text-primary fs-28 me-4 mt-n1"
+                                        >
+                                            <i class="uil uil-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">E-mail</h5>
+                                        <p class="mb-0">
+                                            <a
+                                                href="mailto:sandbox@email.com"
+                                                class="link-body"
+                                                >sandbox@email.com</a
+                                            >
+                                        </p>
+                                        <p class="mb-0">
+                                            <a
+                                                href="mailto:help@sandbox.com"
+                                                class="link-body"
+                                                >help@sandbox.com</a
+                                            >
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--/div -->
+                            </div>
+                            <!--/div -->
+                        </div>
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+</section>
+<!-- /.content-wrapper -->
+
 @endsection
