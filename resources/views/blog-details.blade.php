@@ -7,12 +7,6 @@
         <div class="row">
             <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
                 <div class="post-header">
-                    <div class="post-category text-line">
-                        <a href="#" class="text-reset" rel="category"
-                            >Teamwork</a
-                        >
-                    </div>
-                    <!-- /.post-category -->
                     <h1 class="mb-4">
                         Commodo Dolor Bibendum Parturient Cursus Mollis
                     </h1>
@@ -22,22 +16,8 @@
                             ><span>5 Jul 2021</span>
                         </li>
                         <li class="post-author">
-                            <i class="uil uil-user"></i
-                            ><a href="#" class="text-reset"
-                                ><span>By Sandbox</span></a
-                            >
-                        </li>
-                        <li class="post-comments">
-                            <i class="uil uil-comment"></i
-                            ><a href="#" class="text-reset"
-                                >3<span> Comments</span></a
-                            >
-                        </li>
-                        <li class="post-likes">
-                            <i class="uil uil-heart-alt"></i
-                            ><a href="#" class="text-reset"
-                                >3<span> Likes</span></a
-                            >
+                            <i class="uil uil-user"></i>
+                            <span>Oleh Sandbox</span>
                         </li>
                     </ul>
                     <!-- /.post-meta -->
@@ -244,25 +224,25 @@
                 <!-- /.blog -->
             </div>
             <!-- /column -->
-            <aside class="col-lg-4 sidebar mt-8 mt-lg-2">
+            <aside class="col-lg-4 sidebar">
                 <div class="widget">
-                    <h4 class="widget-title mb-3">Search Post</h4>
+                    <h4 class="widget-title mb-3">Cari Artikel</h4>
                     <form class="search-form">
                         <div class="form-floating mb-0">
                             <input
                                 id="search-form"
                                 type="text"
                                 class="form-control"
-                                placeholder="Search"
+                                placeholder="cari"
                             />
-                            <label for="search-form">Search</label>
+                            <label for="search-form">Kata kunci</label>
                         </div>
                     </form>
                     <!-- /.search-form -->
                 </div>
                 <!-- /.widget -->
                 <div class="widget">
-                    <h4 class="widget-title mb-3">Recent Post</h4>
+                    <h4 class="widget-title mb-3">Artikel Terbaru</h4>
                     <ul class="image-list">
                         <li>
                             <figure class="rounded">

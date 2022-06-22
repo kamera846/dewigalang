@@ -6,12 +6,12 @@
     <div class="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
         <div class="row">
             <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
-                <h1 class="mb-3">Get in Touch</h1>
+                <h1 class="mb-3">Lebih Dekat</h1>
                 <nav class="d-inline-block" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/">Beranda</a></li>
                         <li class="breadcrumb-item active" aria-current="page">
-                            Contact
+                            Kontak
                         </li>
                     </ol>
                 </nav>
@@ -26,116 +26,79 @@
 <!-- /section -->
 <section class="wrapper bg-light angled upper-end lower-end">
     <div class="container py-14 py-md-16">
-        <div class="row gy-10 gx-lg-8 gx-xl-12 mb-16 align-items-center">
-            <div class="col-lg-7 position-relative">
-                <div
-                    class="shape bg-dot green rellax w-18 h-18"
-                    data-rellax-speed="1"
-                    style="top: 0; left: -1.4rem; z-index: 0"
-                ></div>
-                <div class="row gx-md-5 gy-5">
-                    <div class="col-md-6">
-                        <figure class="rounded mt-md-10 position-relative">
-                            <img
-                                src="./assets/img/photos/g5.jpg"
-                                srcset="./assets/img/photos/g5@2x.jpg 2x"
-                                alt=""
-                            />
-                        </figure>
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-6">
-                        <div class="row gx-md-5 gy-5">
-                            <div class="col-md-12 order-md-2">
-                                <figure class="rounded">
-                                    <img
-                                        src="./assets/img/photos/g6.jpg"
-                                        srcset="
-                                            ./assets/img/photos/g6@2x.jpg 2x
-                                        "
-                                        alt=""
-                                    />
-                                </figure>
-                            </div>
-                            <!--/column -->
-                            <div class="col-md-10">
-                                <div
-                                    class="card bg-pale-green text-center counter-wrapper"
-                                >
-                                    <div class="card-body py-11">
-                                        <h3 class="counter text-nowrap">
-                                            5000+
-                                        </h3>
-                                        <p class="mb-0">Satisfied Customers</p>
-                                    </div>
-                                    <!--/.card-body -->
-                                </div>
-                                <!--/.card -->
-                            </div>
-                            <!--/column -->
-                        </div>
-                        <!--/.row -->
-                    </div>
-                    <!--/column -->
-                </div>
-                <!--/.row -->
-            </div>
-            <!--/column -->
-            <div class="col-lg-5">
-                <h2 class="mb-8">
-                    Convinced yet? Let's make something great together.
-                </h2>
-                <div class="d-flex flex-row">
-                    <div>
-                        <div class="icon text-green fs-28 me-6 mt-n1">
-                            <i class="uil uil-location-pin-alt"></i>
-                        </div>
-                    </div>
-                    <div>
-                        <h5 class="mb-1">Address</h5>
-                        <address>
-                            Moonshine St. 14/05 Light City,
-                            <br class="d-none d-md-block" />London, United
-                            Kingdom
-                        </address>
-                    </div>
-                </div>
-                <div class="d-flex flex-row">
-                    <div>
-                        <div class="icon text-green fs-28 me-6 mt-n1">
-                            <i class="uil uil-phone-volume"></i>
-                        </div>
-                    </div>
-                    <div>
-                        <h5 class="mb-1">Phone</h5>
-                        <p>00 (123) 456 78 90</p>
-                    </div>
-                </div>
-                <div class="d-flex flex-row">
-                    <div>
-                        <div class="icon text-green fs-28 me-6 mt-n1">
-                            <i class="uil uil-envelope"></i>
-                        </div>
-                    </div>
-                    <div>
-                        <h5 class="mb-1">E-mail</h5>
-                        <p class="mb-0">
-                            <a href="mailto:sandbox@email.com" class="link-body"
-                                >sandbox@email.com</a
+        <div class="row mb-15">
+            <div class="col-xl-10 mx-auto">
+                <div class="card">
+                    <div class="row gx-0">
+                        <div class="col-lg-6 align-self-stretch">
+                            <div
+                                class="map map-full rounded-top rounded-lg-start"
                             >
-                        </p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31554.927921782735!2d120.19511432801728!3d-8.656698725049925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db37c29dcbbbdcd%3A0xb51b596c072959bf!2sGalang%2C%20Welak%2C%20West%20Manggarai%20Regency%2C%20East%20Nusa%20Tenggara!5e0!3m2!1sen!2sid!4v1655863631667!5m2!1sen!2sid"
+                                    style="width: 100%; height: 100%; border: 0"
+                                    allowfullscreen=""
+                                ></iframe>
+                            </div>
+                            <!-- /.map -->
+                        </div>
+                        <!--/column -->
+                        <div class="col-lg-6">
+                            <div class="p-10 p-md-11 p-lg-14">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div class="icon text-green fs-28 me-6 mt-n1">
+                                            <i class="uil uil-location-pin-alt"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Alamat</h5>
+                                        <address>
+                                            Desa Galang, Kecamatan Welak, 
+                                            <br class="d-none d-md-block" /> Manggarai Barat - NTT
+                                        </address>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div class="icon text-green fs-28 me-6 mt-n1">
+                                            <i class="uil uil-phone-volume"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Telepon</h5>
+                                        <p>+62 813 3752 2673</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div class="icon text-green fs-28 me-6 mt-n1">
+                                            <i class="uil uil-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">E-mail</h5>
+                                        <p class="mb-0">
+                                            sandbox@email.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/div -->
+                        </div>
+                        <!--/column -->
                     </div>
+                    <!--/.row -->
                 </div>
+                <!-- /.card -->
             </div>
-            <!--/column -->
         </div>
-        <!--/.row -->
+        <!-- /.row -->
         <div class="row">
             <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 class="mb-3 text-center">Drop Us a Line</h2>
+                <h2 class="mb-3 text-center">Hubungi Kami</h2>
                 <p class="lead text-center mb-10">
-                    Reach out to us from our contact form and we will get back
-                    to you shortly.
+                    Isi formulir dibawah untuk menghubungi kami melalui whatsapp.
                 </p>
                 <form
                     class="contact-form needs-validation"
@@ -150,33 +113,15 @@
                                 <input
                                     id="form_name"
                                     type="text"
-                                    name="name"
+                                    name="nama"
                                     class="form-control"
-                                    placeholder="Jane"
+                                    placeholder="Rizki Putra"
                                     required
                                 />
-                                <label for="form_name">First Name *</label>
+                                <label for="form_name">Nama Lengkap *</label>
                                 <div class="valid-feedback">Looks good!</div>
                                 <div class="invalid-feedback">
-                                    Please enter your first name.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /column -->
-                        <div class="col-md-6">
-                            <div class="form-floating mb-4">
-                                <input
-                                    id="form_lastname"
-                                    type="text"
-                                    name="surname"
-                                    class="form-control"
-                                    placeholder="Doe"
-                                    required
-                                />
-                                <label for="form_lastname">Last Name *</label>
-                                <div class="valid-feedback">Looks good!</div>
-                                <div class="invalid-feedback">
-                                    Please enter your last name.
+                                    Please enter your fullname.
                                 </div>
                             </div>
                         </div>
@@ -188,37 +133,13 @@
                                     type="email"
                                     name="email"
                                     class="form-control"
-                                    placeholder="jane.doe@example.com"
+                                    placeholder="Putra@contoh.com"
                                     required
                                 />
-                                <label for="form_email">Email *</label>
+                                <label for="form_email">Alamat E-mail *</label>
                                 <div class="valid-feedback">Looks good!</div>
                                 <div class="invalid-feedback">
                                     Please provide a valid email address.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /column -->
-                        <div class="col-md-6">
-                            <div class="form-select-wrapper mb-4">
-                                <select
-                                    class="form-select"
-                                    id="form-select"
-                                    name="department"
-                                    required
-                                >
-                                    <option selected disabled value="">
-                                        Select a department
-                                    </option>
-                                    <option value="Sales">Sales</option>
-                                    <option value="Marketing">Marketing</option>
-                                    <option value="Customer Support">
-                                        Customer Support
-                                    </option>
-                                </select>
-                                <div class="valid-feedback">Looks good!</div>
-                                <div class="invalid-feedback">
-                                    Please select a department.
                                 </div>
                             </div>
                         </div>
@@ -227,13 +148,13 @@
                             <div class="form-floating mb-4">
                                 <textarea
                                     id="form_message"
-                                    name="message"
+                                    name="pesan"
                                     class="form-control"
-                                    placeholder="Your message"
+                                    placeholder="Apa yang ingin anda sampaikan.."
                                     style="height: 150px"
                                     required
                                 ></textarea>
-                                <label for="form_message">Message *</label>
+                                <label for="form_message">Isi Pesan *</label>
                                 <div class="valid-feedback">Looks good!</div>
                                 <div class="invalid-feedback">
                                     Please enter your messsage.
@@ -245,11 +166,8 @@
                             <input
                                 type="submit"
                                 class="btn btn-green rounded-pill btn-send mb-3"
-                                value="Send message"
+                                value="Kirim Pesan"
                             />
-                            <p class="text-muted">
-                                <strong>*</strong> These fields are required.
-                            </p>
                         </div>
                         <!-- /column -->
                     </div>

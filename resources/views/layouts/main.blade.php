@@ -108,7 +108,7 @@
                                         >info@email.com</a
                                     >
                                     <br />
-                                    00 (123) 456 78 90 <br />
+                                    +62 813 3752 2673 <br />
                                     <nav class="nav social social-white mt-4">
                                         <a href="#"
                                             ><i class="uil uil-twitter"></i
@@ -175,13 +175,12 @@
                         <div class="widget">
                             <img
                                 class="mb-4"
-                                src="./assets/img/logo.png"
-                                srcset="./assets/img/logo@2x.png 2x"
+                                src="./assets/img/logo-dark.png"
+                                srcset="./assets/img/logo-dark@2x.png 2x"
                                 alt=""
                             />
                             <p class="lead mb-0">
-                                We are trusted by over 5000+ clients. Join them
-                                by using our services and grow your business.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ipsa accusantium at!
                             </p>
                         </div>
                         <!-- /.widget -->
@@ -198,10 +197,9 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <h5 class="mb-1">Phone</h5>
+                                    <h5 class="mb-1">Telepon</h5>
                                     <p class="mb-0">
-                                        00 (123) 456 78 90 <br />00 (987) 654 32
-                                        10
+                                        +62 813 3752 2673
                                     </p>
                                 </div>
                             </div>
@@ -223,10 +221,9 @@
                                 <div
                                     class="align-self-start justify-content-start"
                                 >
-                                    <h5 class="mb-1">Address</h5>
+                                    <h5 class="mb-1">Alamat</h5>
                                     <address>
-                                        Moonshine St. 14/05 Light City, London,
-                                        United Kingdom
+                                        Desa Galang, Kecamatan Welak, Manggarai Barat - NTT
                                     </address>
                                 </div>
                             </div>
@@ -242,7 +239,7 @@
                     class="d-md-flex align-items-center justify-content-between"
                 >
                     <p class="mb-2 mb-lg-0">
-                        © 2021 Sandbox. All rights reserved.
+                        © {{ date('Y') }} Galang - powered by <a href="https://jongkreatif.id" target="_blank">JongKreatif</a>.
                     </p>
                     <nav class="nav social social-muted mb-0 text-md-end">
                         <a href="#"><i class="uil uil-twitter"></i></a>
